@@ -5,5 +5,5 @@ import { Pin } from "./Pin";
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
 export class DetailViewState {
-    public Pin: Pin;
+    constructor(public Pin: Pin) { }
 }

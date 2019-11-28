@@ -8,6 +8,6 @@ export class DetailViewState {
     constructor(public Pin: Pin1) { }
 
     public isKontrollschildValid<Pin1>(): Promise<Pin1> {
-        return null;
+        return;
     }
 }
